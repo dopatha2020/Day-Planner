@@ -7,9 +7,8 @@ $(document).ready(function() {
 });
 
 var hour= moment().hours()
-var row = hour
-
-$("textarea").each(function() {
+var row= hour
+$("description").each(function() {
     if (row === hour) {
         $(this).addClass("present");
     }
